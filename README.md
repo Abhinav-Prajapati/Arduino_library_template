@@ -1,5 +1,5 @@
 # Arduino Library Template
-
+```MyLibrary.h```
  
 ```cpp
 #ifndef MyLibrary_h
@@ -20,6 +20,9 @@ private:
 The ```#ifndef``` and  ```#define``` directives are used to prevent the library from being included multiple times.
 
 ### Here is the implementation code for the library
+
+```MyLibrary.cpp```
+
 ```cpp
 #include "MyLibrary.h"
 MyLibrary::MyLibrary() {
